@@ -175,7 +175,7 @@ const ActionDropdown = ({ file }: { file: Models.Document }) => {
             >
               {actionItem.value === "download" ? (
                 <Link
-                  href={constructDownloadUrl(file.bucketFileId)}
+                  href={constructDownloadUrl(file.bucketField)}
                   download={file.name}
                   className="flex items-center gap-2"
                 >
