@@ -1,5 +1,9 @@
 import React from "react";
 import AuthForm from "@/components/AuthForm";
+import { getCurrentUser } from "@/lib/actions/users.actions";
+import { redirect } from "next/navigation";
 
-const SignIn = () => <AuthForm type="sign-in" />;
+const SignIn = async () => {
+  return <AuthForm type="sign-in" />;
+};
 export default SignIn;
