@@ -58,6 +58,7 @@ export const ShareInput = ({ file, onInputChange, onRemove }: Props) => {
           placeholder="Enter email address"
           onChange={(e) => onInputChange(e.target.value.trim().split(","))}
           className="share-input-field"
+          style={{ fontSize: "16px" }}
         />
         <div className="pt-4">
           <div className="flex justify-between">

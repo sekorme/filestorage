@@ -100,6 +100,7 @@ const ActionDropdown = ({ file }: { file: Models.Document }) => {
               type="text"
               value={name}
               onChange={(e) => setName(e.target.value)}
+              style={{ fontSize: "16px" }}
             />
           )}
           {value === "details" && <FileDetails file={file} />}

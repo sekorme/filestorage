@@ -65,6 +65,7 @@ const Search = () => {
           placeholder="Search..."
           className="search-input"
           onChange={(e) => setQuery(e.target.value)}
+          style={{ fontSize: "16px" }}
         />
 
         {open && (
